@@ -1,0 +1,22 @@
+import openpyxl
+import requests
+import json
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+
+# 각 행에 대해서
+pageNum = 1
+count = 1
+i=1321
+lastPage = int(i)
+while pageNum < lastPage + 1:
+    html = urlopen('https://www.androidrank.org/developers/ranking?&start='+str(pageNum))
+    bsObject = BeautifulSoup(html, "html.parser")
+    paragraph_data = bsObject.find_all('td', style='text-align:left;')
+    for a in paragraph_data:
+        print(a.find("a")["href"])
+        print('\n')
+
+    pageNum += 20
+    count += 1
+
