@@ -10,7 +10,7 @@
 
 
 
-# PlayStroe
+# PlayStore
 
 : Application
 1. data_parser(PS) - all_id(PS)를 바탕으로 앱의 정보를 Crawling
