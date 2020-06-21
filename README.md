@@ -9,8 +9,9 @@
 2. data_parser(AR) - 앱의 id와 api_key를 바탕으로 앱의 정보를 Get
 
 
---플레이스토어--
-7.data_parser(PS)- 플레이스토어 앱들을 정보를 get(크롤링)
-8.all_id(PS).xlsx-플레이스토어 앱들을 id 엑셀
-9.text_rank-플레이스토어 앱들을 url(크롤링), 카테고리,(크롤링) 기능(크롤링하여 토큰화), 앱 설명(크롤링)
-10.full_data.xlsx- 9번의 모든 data를 포함 
+
+# PlayStroe
+
+: Application
+1. data_parser(PS) - all_id(PS)를 바탕으로 앱의 정보를 Crawling
+2. text_rank - 앱의 정보를 url(크롤링), 카테고리,(크롤링) 기능(크롤링하여 토큰화), 앱 설명(크롤링)으로 분류하여 full_data.xlsx에 insert
