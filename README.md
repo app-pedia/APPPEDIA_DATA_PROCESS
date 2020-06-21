@@ -1,10 +1,12 @@
 # AndroidRank
-1.developer(AR)-개발자의 id정보를 get(크롤링)
-2.developer_data.xlsx-개발자의 id 엑셀
-3.developer_info(AR)-개발자의 id를 통해 개발자의 정보를 get(2번 엑셀 데이터를 읽어와서 크롤링)
-4.xl_to_data(AR)-개발자의 모든 앱 id들을 get(크롤링)
-5.all_id(AR).xlsx-개발자의 모든 앱 id 엑셀
-6.data_parser(AR)-4번에서 크롤링한 앱들의 정보를 get(크롤링)
+
+: Developer
+1. developer(AR) - 개발자의 id 정보를 Crawling하여 developer_data.xlsx에 insert
+2. developer_info(AR) - 개발자의 id를 바탕으로 개발자의 정보를 Crawling
+
+: Application
+1. xl_to_data(AR) - 개발자의 모든 앱 id를 Crawling하여 all_id(AR).xlsx에 insert
+2. data_parser(AR) - 앱의 id와 api_key를 바탕으로 앱의 정보를 Get
 
 
 --플레이스토어--
