@@ -1,4 +1,4 @@
-—안드로이드랭크—
+# AndroidRank
 1.developer(AR)-개발자의 id정보를 get(크롤링)
 2.developer_data.xlsx-개발자의 id 엑셀
 3.developer_info(AR)-개발자의 id를 통해 개발자의 정보를 get(2번 엑셀 데이터를 읽어와서 크롤링)
